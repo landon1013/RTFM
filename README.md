@@ -95,7 +95,7 @@ correctly. You should see your ```window.env``` object logged out onto your logi
 2. Create the ```logMeIn``` function in your ```LoginCtrl```. Have it ```alert``` the username for now.
 3. Create a function in ```EnvironmentService``` called ```saveUsername``` that accepts a username and saves it to
 local storage using ```$window.localStorage.setItem('username', username);```.
-4. Create another function in ```EnvironmentSerice``` called ```getUsername``` that returns the username with $window.localStorage.getItem('username');
+4. Create another function in ```EnvironmentService``` called ```getUsername``` that returns the username with $window.localStorage.getItem('username');
 
 5. Inject ```$location``` into ```LoginCtrl``` and use it to forward the user to the ```threads``` route after login (which is /threads as the URL, hint, look up how to use $location to redirect to a different URL).
 6. Create a ```threads.html``` view and a ```ThreadsCtrl``` controller in the appropriate folder. Add the new view and
